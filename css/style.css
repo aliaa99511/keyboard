@@ -1,0 +1,109 @@
+
+
+body{
+    background-color: #eee!important;
+    overflow-y: hidden;
+}
+.text-center {
+    text-align: center!important;
+    margin-left: -168px;
+    margin-bottom: 50px;
+    color: #004134;
+}
+.parent{
+    margin-top: 20px;
+    margin-left: 500px;
+    width: 700px;
+    height: 754px;
+}
+
+textarea{width: 500px!important;height: 200px!important;margin-bottom: 15px!important;}
+
+#keyboard {
+    width: 700px;
+    height: 285px;
+    background-color: #004134;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    bottom: -50%;
+    left: 27%;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+    padding-top: 13px;
+}
+
+button{
+    outline: none!important;
+    background-color: transparent;
+    border: 0!important;
+    color: white;
+    text-align: center!important;
+}
+button:focus{
+    outline: none!important;
+    border: 0!important;
+}
+button:active{
+    background-color: rgba(255, 255, 255, 0.12)!important;
+
+}
+.character{
+    height: 45px;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 6%;
+    margin: 3px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    
+}
+
+
+#backspace{
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 12%;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#capsloak{
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 12%;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#enter{
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 12%;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#check{
+    background-color:rgba(0, 0, 0, 0.25);
+    width: 12%;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#spacebar{
+    background-color: rgba(255, 255, 255, 0.2);
+     width: 36%;
+     height: 40px;
+     border-radius: 4px;
+     font-size: 16px;
+     margin-top: 9px;
+}
+.material-icons{
+    color: white!important;
+   
+}
+
+
+
+
+.uppercase{text-transform: uppercase;}
